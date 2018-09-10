@@ -15,6 +15,7 @@ axios
     console.log(weather);
     return weather;
   });
+
 //function to get weather
 let getWeather = (req, res) => {
   res.status(200).send(weather);
